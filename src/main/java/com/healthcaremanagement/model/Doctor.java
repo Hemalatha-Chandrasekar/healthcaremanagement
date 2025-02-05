@@ -1,12 +1,11 @@
 package com.healthcaremanagement.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
 
 @Entity
 @Table
 
-public class Dotor {
+public class Doctor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column (name="DoctorID")
@@ -66,7 +65,7 @@ public class Dotor {
 
     @Override
     public String toString() {
-        return "Dotor{" +
+        return "Doctor{" +
                 "doctorId=" + doctorId +
                 ", firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +

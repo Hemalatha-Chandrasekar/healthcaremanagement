@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="HealthcareManagementTwoDB@localhost" uuid="8d3f8e75-cf48-4bbd-8a23-2accec7b26ac">
+    <data-source source="LOCAL" name="HealthcareManagementTwoDB@localhost" uuid="30a292f7-c29a-409b-b881-3d9367455aef">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
